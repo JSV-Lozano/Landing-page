@@ -1,0 +1,125 @@
+.container__Header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: unset;
+  z-index: 1;
+}
+.container__Navbar {
+  min-width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container__Logo {
+  display: flex;
+  align-items: center;
+}
+.container__Logo > h1 {
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #486a6f;
+}
+.container__LogoVector {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: linear-gradient(
+      104.26deg,
+      rgba(67, 151, 164, 0.2) 0.88%,
+      rgba(91, 204, 222, 0.2) 99.89%
+    ),
+    #4397a4;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+}
+.container__List {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container__Navigation {
+  display: flex;
+  padding: 100px;
+}
+.container__Navegation > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #678c92;
+}
+.button {
+  color: #f4f7ff;
+  font-size: 1.3rem;
+  line-height: 22px;
+  width: 130px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      104.26deg,
+      rgba(67, 151, 164, 0.2) 0.88%,
+      rgba(91, 204, 222, 0.2) 99.89%
+    ),
+    #4397a4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 699px) and (min-width: 400px) {
+  .container__List {
+    top: 85px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    justify-content: unset;
+    flex-direction: column;
+    position: absolute;
+    background: #f4f7ff;
+    transform: translateX(-110%);
+    transition: 0.5s all ease-in;
+    -webkit-transition: 0.5s all ease-in;
+    -moz-transition: 0.5s all ease-in;
+    -ms-transition: 0.5s all ease-in;
+    -o-transition: 0.5s all ease-in;
+    -webkit-transform: translateX(-110%);
+    -moz-transform: translateX(-110%);
+    -ms-transform: translateX(-110%);
+    -o-transform: translateX(-110%);
+  }
+  .open {
+    z-index: 0;
+    display: block;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+  .Hamburger {
+    display: block;
+    font-size: 3.4rem;
+    cursor: pointer;
+  }
+
+  .container__List > li {
+    padding: 30px;
+    font-size: 2.2rem;
+  }
+  .container__List > li > a {
+    font-size: 2.2rem;
+    color: #085762;
+  }
+}
