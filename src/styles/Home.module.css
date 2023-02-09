@@ -42,7 +42,7 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 36px;
   color: #678c92;
   margin-bottom: 120px;
@@ -68,7 +68,7 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 22px;
 }
 .container__InfoButtons > a:nth-child(1) {
@@ -85,10 +85,70 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 22px;
   text-align: center;
   color: #f4f7ff;
+}
+.Services {
+  text-align: center;
+  width: 100%;
+}
+.Services > h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 48px;
+  margin-bottom: 132px;
+  color: #486a6f;
+}
+.container__Services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.container__Services > div {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.container__Services > div > img {
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+      135deg,
+      rgba(103, 140, 146, 0.2) 0%,
+      rgba(158, 213, 222, 0.2) 100%
+    ),
+    #678c92;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container__Services > div > h2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 44px;
+  color: #486a6f;
+}
+.container__Services > div > p {
+  font-family: "Noto Sans";
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #678c92;
 }
 @media screen and (min-width: 1440px) {
   .container__Home {
@@ -124,6 +184,15 @@
     margin-bottom: 130px;
   }
 }
+@media only screen and (max-width: 512px) {
+  .container__HomeInfo > h2 {
+    width: initial;
+  }
+  .container__HomeInfo > p {
+    width: initial;
+  }
+}
+
 @media only screen and (min-width: 1900px) {
   .image {
     display: block;

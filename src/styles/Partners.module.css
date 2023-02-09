@@ -1,0 +1,20 @@
+.Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.container__Partners {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #678c92;
+  border-left: none;
+  border-right: none;
+}
+.container__Partners > img {
+  margin: 20px;
+}

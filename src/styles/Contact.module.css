@@ -1,0 +1,91 @@
+.container__Contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container__InfoContact {
+  width: 100%;
+  height: 100%;
+}
+.container__InfoContact > a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #5bccde;
+}
+.container__InfoContact > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #486a6f;
+}
+.Contact__Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Contact__Info > div > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: #486a6f;
+}
+.Contact__Info > div > p:nth-child(2) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 21px;
+  color: #486a6f;
+}
+.container__Form {
+  width: 95vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__Form > div {
+  width: 60%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.container__Form > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.container__Form1 > div > label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 5px;
+  color: #678c92;
+}
+.container__Form1 > div > input {
+  border: 1px solid #486a6f;
+  border-radius: 3px;
+}
+.container__Form2 {
+  display: flex;
+  flex-direction: column;
+}
+.container__Form2 > label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 5px;
+  color: #678c92;
+}
+.container__Form2 > input {
+  border: 1px solid #486a6f;
+  border-radius: 3px;
+}
+.container__Form2 > textarea {
+  height: 200px;
+  border: 1px solid #486a6f;
+  border-radius: 3px;
+}

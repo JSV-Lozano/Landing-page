@@ -8,7 +8,7 @@
   z-index: 1;
 }
 .container__Navbar {
-  min-width: 90%;
+  max-width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -43,7 +43,7 @@
   width: 700px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .container__Navigation {
   display: flex;
@@ -72,14 +72,14 @@
     ),
     #4397a4;
   border-radius: 5px;
-  padding: 10px;
+  text-align: center;
 }
 .Hamburger {
   display: none;
 }
 .Footer {
   width: 100%;
-  height: 434px;
+  height: 440px;
   background: linear-gradient(
       84.81deg,
       rgba(72, 106, 111, 0.2) 0%,
@@ -123,7 +123,7 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 32px;
 }
 .Services > div {
@@ -150,7 +150,7 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 32px;
 }
 .Ubication > p:nth-child(1) {
@@ -160,9 +160,13 @@
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 725px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .container__Navbar {
+    min-width: 100vw;
+    overflow: hidden;
+  }
   .container__List {
-    top: 85px;
+    top: 70px;
     width: 100%;
     text-align: center;
     height: 100vh;
