@@ -23,7 +23,7 @@ function Contact() {
           <h2>Get In Touch</h2>
           {contacts.map((contact) => (
             <div key={contact.Title} className={styles.Contact__Info}>
-              <Image src={contact.Icons} />
+              <Image src={contact.Icons} alt={contact.Title}/>
               <div>
                 <p>{contact.Title}</p>
                 <p>{contact.Text}</p>
@@ -31,7 +31,7 @@ function Contact() {
             </div>
           ))}
         </div>
-        <form>
+        <form action="/" className={styles.form}>
           <div className={styles.container__Form}>
             <div className={styles.container__Form1}>
               <div>
@@ -39,7 +39,7 @@ function Contact() {
                 <input type="text" name="Name" />
               </div>
               <div>
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input type="email" name="email" />
               </div>
             </div>
@@ -50,6 +50,7 @@ function Contact() {
               <textarea type="text" />
             </div>
           </div>
+          <button>Send message</button>
         </form>
       </div>
     </>

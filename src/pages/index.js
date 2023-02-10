@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Hhome } from "@/components/Home";
-
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {

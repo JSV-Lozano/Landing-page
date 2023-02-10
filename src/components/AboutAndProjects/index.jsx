@@ -45,7 +45,7 @@ function AboutAndProjects() {
           <Link href="">Explore</Link>
         </div>
       </div>
-      <div className={styles.container__Project}>
+      <div className={styles.container__Projects}>
         <div className={styles.container__Project}>
           <h2>Available Properties</h2>
           <h3>Featured Listing</h3>
@@ -79,7 +79,7 @@ function AboutAndProjects() {
           ))}
         </div>
       </div>
-      <Contact/>
+      <Contact />
     </>
   );
 }

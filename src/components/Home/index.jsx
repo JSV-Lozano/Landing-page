@@ -49,8 +49,8 @@ function Hhome() {
             reputation
           </p>
           <div className={styles.container__InfoButtons}>
-            <Link href="">Services</Link>
-            <Link href="">About the company</Link>
+            <Link href="/home">Service</Link>
+            <Link href="/about">About the company</Link>
           </div>
         </div>
         <div className={styles.photos}>
@@ -80,8 +80,8 @@ function Hhome() {
         </div>
       </section>
       <section>
-        <Partners/>
-        <AboutAndProjects/>
+        <Partners />
+        <AboutAndProjects />
       </section>
     </>
   );

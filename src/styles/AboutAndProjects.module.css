@@ -59,9 +59,9 @@
   font-size: 16px;
   line-height: 22px;
 }
-.container__Project {
+.container__Projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .container__Project {
   display: flex;
@@ -154,4 +154,31 @@
   width: 328px;
   height: 278px;
   margin: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__About {
+    flex-direction: row;
+    margin-left: 140px;
+  }
+  .container__About_Info {
+    width: 40%;
+    height: 30vh;
+    align-items: normal;
+    text-align: initial;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .container__Projects {
+    flex-direction: row-reverse;
+  }
+  .container__Project {
+    max-width: 40%;
+    max-height: 35vh;
+    justify-content: space-around;
+    align-items: initial;
+  }
+  .Container__Image_Project {
+    max-width: 30%;
+  }
 }

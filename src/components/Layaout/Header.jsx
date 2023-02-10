@@ -31,7 +31,9 @@ function Header({ children }) {
             />
             <div className={styles.container__Logo}>
               <div className={styles.container__LogoVector}></div>
-              <h1 className={NotoSans.className}>Buildit</h1>
+              <Link href="/">
+                <h1 className={NotoSans.className}>Buildit</h1>
+              </Link>
             </div>
             <ul
               className={`${styles.container__List} ${
