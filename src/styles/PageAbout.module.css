@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+  margin-bottom: 166px;
 }
 
 .container__PageAbout > img {
@@ -33,6 +34,93 @@
   line-height: 32px;
   color: #678c92;
 }
+.container__Statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__Statistics > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #5bccde;
+}
+.container__Statistics > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 48px;
+  color: #486a6f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container__Statistic {
+  text-align: center;
+}
+.Statistics {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #486a6f;
+}
+.Statistics__numb > p:nth-child(1) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 4.9rem;
+  color: #486a6f;
+}
+.Statistics__numb > p:nth-child(2) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 22px;
+  color: #678c92;
+  margin-bottom: 10px;
+}
+.container__Teams > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #5bccde;
+}
+.container__Teams > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #486a6f;
+  margin-bottom: 20px;
+}
+.container__Team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Teams {
+  box-shadow: 0 0 13px 2px #428691;
+  background-color: #e1ebfa;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  height: 340px;
+}
+.Teams > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #486a6f;
+}
+.Teams > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #678c92;
+  margin: 10px 0 0 15px;
+}
 @media only screen and (min-width: 1024px) {
   .container__PageAbout > img {
     display: block;
@@ -44,5 +132,39 @@
   .container__AboutInfo {
     width: 540px;
     height: 432px;
+  }
+  .container__Statistic {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: linear-gradient(88.65deg, #c6dbff 0%, #e1ebfa 100%);
+    border-radius: 10px;
+    margin-bottom: 60px;
+  }
+  .Statistics {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    border-bottom: none;
+    border-right: 1px solid #486a6f;
+  }
+  .Statistics > div {
+    display: flex;
+    margin-top: 30px;
+  }
+  .Statistics > div > div {
+    margin-left: 20px;
+  }
+  .container__Teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container__Team {
+    width: 50%;
+  }
+  .Teams{
+    margin: 10px 0 10px 15px;
   }
 }

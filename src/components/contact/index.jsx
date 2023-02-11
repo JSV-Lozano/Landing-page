@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Icon from "../../../public/img/Icon-1.svg";
-import Icon2 from "../../../public/img/Icon-2.svg";
+import Icon from "@/assents/img/contact/Icon-1.svg";
+import Icon2 from "@/assents/img/contact/Icon-2.svg";
 import styles from "@/styles/Contact.module.css";
 const contacts = [
   { Icons: Icon, Title: "Tel", Text: "708-790-0000" },
@@ -23,7 +23,7 @@ function Contact() {
           <h2>Get In Touch</h2>
           {contacts.map((contact) => (
             <div key={contact.Title} className={styles.Contact__Info}>
-              <Image src={contact.Icons} alt={contact.Title}/>
+              <Image src={contact.Icons} alt={contact.Title} />
               <div>
                 <p>{contact.Title}</p>
                 <p>{contact.Text}</p>

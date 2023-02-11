@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Noto_Sans } from "@next/font/google";
-import styles from "@/styles/Layaout.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import styles from "@/styles/Layaout.module.css";
 
 const NotoSans = Noto_Sans({
   weight: ["700"],
@@ -15,7 +15,7 @@ const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
-function Header({ children }) {
+function Header() {
   const [isOpen, setIsOpen] = React.useState("close");
   const handleShow = () => {
     isOpen === "close" ? setIsOpen("open") : setIsOpen("close");

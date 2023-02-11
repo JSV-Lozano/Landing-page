@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/styles/Layaout.module.css";
-import Card from "../../../public/img/Card.png";
-import Button from "../../../public/img/Button.png";
+import Card from "@/assents/img/projects//Card.png";
+import Button from "@/assents/img/projects/Button.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -48,8 +48,13 @@ function Footer() {
         </div>
         <div className={styles.Ubication}>
           <p>Get in touch</p>
-          <p>60 Manor Station St. Fairport, <br/> NY 14450</p>
-          <p>708-790-0000 <br/>sales@buildit.site</p>
+          <p>
+            60 Manor Station St. Fairport, <br /> NY 14450
+          </p>
+          <p>
+            708-790-0000 <br />
+            sales@buildit.site
+          </p>
         </div>
       </div>
     </footer>

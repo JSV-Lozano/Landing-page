@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import oto from "../../../public/img/ото.png";
-import Photo from "../../../public/img/Photo.png";
-import Photo1 from "../../../public/img/Photo-1.png";
-import Photo2 from "../../../public/img/Photo-2.png";
-import Photo3 from "../../../public/img/Photo-3.png";
-import Photo4 from "../../../public/img/Photo-4.png";
-import Photo5 from "../../../public/img/Photo-5.png";
-import Card from "../../../public/img/Card-1.png";
-import Card2 from "../../../public/img/Card-2.png";
-import Card3 from "../../../public/img/Card-3.png";
-import styles from "@/styles/AboutAndProjects.module.css";
 import { Contact } from "../contact";
+import oto from "@/assents/img/projects/ото.png";
+import Photo from "@/assents/img/projects/Photo.png";
+import Photo1 from "@/assents/img/projects/Photo-1.png";
+import Photo2 from "@/assents/img/projects/Photo-2.png";
+import Photo3 from "@/assents/img/projects/Photo-3.png";
+import Photo4 from "@/assents/img/projects/Photo-4.png";
+import Photo5 from "@/assents/img/projects/Photo-5.png";
+import Card from "@/assents/img/projects/Card-1.png";
+import Card2 from "@/assents/img/projects/Card-2.png";
+import Card3 from "@/assents/img/projects/Card-3.png";
+import styles from "@/styles/AboutAndProjects.module.css";
 
 const Photos = [
   { Img: Photo5, alt: "Photo Project6" },

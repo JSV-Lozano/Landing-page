@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Vector_1 from "../../../public/img/Vector_1.png";
-import Vector_2 from "../../../public/img/Vector_2.png";
-import Vector_3 from "../../../public/img/Vector_3.png";
-import Vector_4 from "../../../public/img/Vector_4.png";
-import Vector_5 from "../../../public/img/Vector_5.png";
+import Vector_1 from "@/assents/img/partners/Vector_1.png";
+import Vector_2 from "@/assents/img/partners/Vector_2.png";
+import Vector_3 from "@/assents/img/partners/Vector_3.png";
+import Vector_4 from "@/assents/img/partners/Vector_4.png";
+import Vector_5 from "@/assents/img/partners/Vector_5.png";
 import styles from "@/styles/Partners.module.css";
 
 const VectorPartners = [

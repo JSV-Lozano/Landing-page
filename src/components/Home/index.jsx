@@ -4,15 +4,15 @@ import Link from "next/link";
 import { Partners } from "../Partners";
 import { AboutAndProjects } from "../AboutAndProjects";
 import { Noto_Sans } from "@next/font/google";
-import figures from "../../../public/img/Figure.svg";
-import Rectangle_608 from "../../../public/img/Rectangle_608.png";
-import Rectangle_609 from "../../../public/img/Rectangle_609.png";
-import Rectangle_610 from "../../../public/img/Rectangle_610.png";
-import Rectangle_612 from "../../../public/img/Rectangle_612.png";
-import Rectangle_613 from "../../../public/img/Rectangle_613.png";
-import Icon from "../../../public/img/Icon_1.svg";
-import Icon2 from "../../../public/img/Icon_2.svg";
-import Icon3 from "../../../public/img/Icon_3.svg";
+import figures from "@/assents/img/home/Figure.svg";
+import Rectangle_608 from "@/assents/img/home/Rectangle_608.png";
+import Rectangle_609 from "@/assents/img/home/Rectangle_609.png";
+import Rectangle_610 from "@/assents/img/home/Rectangle_610.png";
+import Rectangle_612 from "@/assents/img/home/Rectangle_612.png";
+import Rectangle_613 from "@/assents/img/home/Rectangle_613.png";
+import Icon from "@/assents/img/home/Icon_1.svg";
+import Icon2 from "@/assents/img/home/Icon_2.svg";
+import Icon3 from "@/assents/img/home/Icon_3.svg";
 import styles from "@/styles/Home.module.css";
 const NotoSans = Noto_Sans({
   weight: ["400"],
