@@ -41,6 +41,8 @@ function About() {
     <>
       <Head>
         <title>Buildit--About</title>
+        <meta name="description" content="Buildit About" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.container__PageAbout}>
         <Image src={PhotosAbout} alt="Photo About" />
